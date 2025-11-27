@@ -1,0 +1,29 @@
+.greeting-card {
+    max-width: 35rem;
+    background-color: #333;
+    padding: 2em;
+    border-radius: 1rem;
+}
+
+.greeting-card img {
+    border-radius: 0.8rem;
+    width: 100%;
+}
+
+.greeting-card h1 {
+    color: antiquewhite;
+}
+
+.greeting-card p {
+    background-color: antiquewhite;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 1em 2em;
+}
+
+.greeting-card .from {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
