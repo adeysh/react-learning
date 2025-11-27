@@ -1,0 +1,41 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.on {
+    padding: 0.75rem 1.8rem;
+    border: none;
+    background: #ffd54a;
+    color: #3b2a00;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+
+    box-shadow: 0 0 10px rgba(255, 213, 74, 0.8), 0 0 20px rgba(255, 213, 74, 0.7),
+        0 0 40px rgba(255, 213, 74, 0.5);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: bulbGlow 1.8s ease-in-out infinite alternate;
+}
+
+.on:hover {
+    transform: translateY(-1px) scale(1.03);
+    box-shadow: 0 0 15px rgba(255, 213, 74, 1), 0 0 30px rgba(255, 213, 74, 0.9),
+        0 0 60px rgba(255, 213, 74, 0.8);
+}
+
+@keyframes bulbGlow {
+    0% {
+        box-shadow: 0 0 8px rgba(255, 213, 74, 0.6), 0 0 16px rgba(255, 213, 74, 0.5),
+            0 0 30px rgba(255, 213, 74, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 16px rgba(255, 213, 74, 1), 0 0 32px rgba(255, 213, 74, 0.9),
+            0 0 60px rgba(255, 213, 74, 0.8);
+    }
+}
