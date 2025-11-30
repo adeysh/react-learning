@@ -1,0 +1,15 @@
+.dark {
+    background-color: #1a1a1a;
+}
+.dark:hover {
+    border-color: #646cff;
+}
+
+.light {
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+}
+
+.light:hover {
+    border-color: #444df7;
+}
